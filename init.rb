@@ -11,4 +11,5 @@ Redmine::Plugin.register :redmine_analytics do
   author_url 'http://ideacrew.com'
   settings :default => {
     'segment_write_key' => 'hcCngI9GjjD0FTVV1QKevoUxcFQASgkD',
-  }, :partial => 'settings/report_settings'
+  }, :partial => 'settings/analytic_settings'
+end
