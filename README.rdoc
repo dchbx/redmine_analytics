@@ -2,4 +2,4 @@
 
 http://www.redmine.org/plugins/redmine_analytics
 
-This plugin was created and is maintained by IdeaCrew
+This plugin was created and is managed by [IdeaCrew, Inc](http://ideacrew.com) for the [DC Health Benefit Exchange](http://hbx.dc.gov/).
