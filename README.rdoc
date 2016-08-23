@@ -1,3 +1,5 @@
 = redmine_analytics
 
-Description goes here
+http://www.redmine.org/plugins/redmine_analytics
+
+This plugin was created and is maintained by IdeaCrew
