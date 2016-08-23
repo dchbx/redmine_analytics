@@ -1,4 +1,4 @@
-= redmine_analytics
+# redmine_analytics
 
 http://www.redmine.org/plugins/redmine_analytics
 
