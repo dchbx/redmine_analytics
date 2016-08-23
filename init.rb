@@ -12,4 +12,3 @@ Redmine::Plugin.register :redmine_analytics do
   settings :default => {
     'segment_write_key' => 'hcCngI9GjjD0FTVV1QKevoUxcFQASgkD',
   }, :partial => 'settings/report_settings'
-end
