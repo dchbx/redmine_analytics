@@ -9,6 +9,19 @@ class RedmineAnalyticsHooks < Redmine::Hook::ViewListener
             name: '#{User.current.firstname} #{User.current.lastname}',
             email: '#{User.current.mail}'
           });
+          $(document).ready(function(){
+            $('form').each(function(){
+              if ($(this).attr('id')){
+                var formName = $(this).attr('id');
+              }else{
+                var formName = $(this).parent().attr('id');
+              }
+              analytics.trackForm($(this), 'Form: ' + formName);
+            });
+            $('a').each(function(){
+              analytics.trackLink($(this), 'Clicked: ' + $(this).attr('href'));
+            });
+          });
         }}();
       </script>
     "
