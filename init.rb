@@ -10,6 +10,6 @@ Redmine::Plugin.register :redmine_analytics do
   url 'https://github.com/dchbx/redmine_analytics'
   author_url 'http://ideacrew.com'
   settings :default => {
-    'segment_write_key' => '',
+    'segment_write_key' => 'hcCngI9GjjD0FTVV1QKevoUxcFQASgkD',
   }, :partial => 'settings/analytic_settings'
 end
